@@ -1,0 +1,43 @@
+html,body {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    overflow: auto;
+}
+
+.MainContainer{
+    display: flex;
+    width: 250px;
+    margin: 10px;
+    flex-direction: column;
+    border: 2px solid black;
+}
+.Header{
+    display: flex;
+    justify-content: center;
+    background-color: darkred;
+    color: white;
+    padding: 5px;
+}
+
+#input-people, #qualidade-servico, #input-money, #input-total{
+    margin: 10px;
+}
+#div-button{
+    display: flex;
+    justify-content: center;    
+}
+#btn-calc{
+    background-color: darkred;
+    color: white;
+    padding: 15px 25px;
+    cursor: pointer;
+    box-shadow: 0 9px gray;
+}
+#btn-calc:hover{
+    background-color: rgba(139, 0, 0, 0.795);
+}
+#btn-calc:active{
+    box-shadow: 0 5px grey;
+    transform: translateY(4px);
+}

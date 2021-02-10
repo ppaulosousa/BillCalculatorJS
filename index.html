@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Bill</title>
+</head>
+<body>
+    <div class="MainContainer">
+        <div class="Header">
+            TIP CALCULATOR
+        </div><br>
+        <div class="Amount">
+            How much was your bill?<br><br>
+            €<input type="text" id="input-money"><br><br>
+        </div>
+        <div class="Service">
+            How was your service?<br><br>
+            <select id="qualidade-servico">
+                <option disabled>-- Choose an Option</option>
+                <option value="Good">Good</option>
+                <option value="Normal">Normal</option>
+                <option value="Bad">Bad</option>
+            </select><br><br>
+        </div>
+        <div class="ManyPeople">
+            How many people are sharing the bill?<br><br>
+            <input type="text" id="input-people">people<br><br>
+        </div>
+        <div id="div-button">
+            <button type="submit" id="btn-calc">CALCULATE!</button><br><br>
+        </div><br><br>
+        <div id="div-total">
+            <input type="text" id="input-total" disabled>
+        </div>
+    </div>
+    <script src="mainbill.js"></script>
+</body>
+</html>
