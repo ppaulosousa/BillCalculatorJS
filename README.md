@@ -1,6 +1,6 @@
-#Projeto
+# Projeto
 
-##Como começar
+## Como começar
 
 ```
 Live server index.html
