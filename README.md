@@ -1,6 +1,4 @@
-# Projeto
-
-## Como começar
+### Pratice
 
 ```
 Live server index.html
